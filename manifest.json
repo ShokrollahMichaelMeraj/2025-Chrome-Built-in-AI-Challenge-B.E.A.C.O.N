@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "B.E.A.C.O.N.",
+  "version": "0.1.0",
+  "description": "Browser Extension for AI-Centered Online Navigation - Guiding you through the web like a lighthouse.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

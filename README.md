@@ -3,16 +3,16 @@
 An extension built for the elderly to guide them when they feel lost on the web , just like a lighthouse guiding ships safely to shore.
 
 ---
-🎯 Features
+## Features
 
-✅ Uses Chrome's built-in Gemini Nano AI (Prompt API)
-🎤 Voice input and text-to-speech output (coming soon)
-🟢 Highlights on-screen elements for easy navigation (coming soon)
-♿ Designed for accessibility and simplicity
-🔒 Privacy-first: All AI processing happens on your device
+- ✅ Uses Chrome's built-in Gemini Nano AI (Prompt API)
+- 🎤 Voice input and text-to-speech output (coming soon)
+- 🟢 Highlights on-screen elements for easy navigation (coming soon)
+- ♿ Designed for accessibility and simplicity
+- 🔒 Privacy-first: All AI processing happens on your device
 
 
-🛠️ Tech Stack
+## Tech Stack
 
 Manifest V3 Chrome Extension
 Gemini Nano (Built-in Chrome AI)
@@ -21,7 +21,9 @@ Web Speech API (for voice features)
 Chrome TTS (for audio guidance)
 
 
-📁 Project Structure
+## Project Structure
+```
+ 
 BEACON/
 ├── manifest.json          # Extension configuration
 ├── popup.html            # Main UI
@@ -36,8 +38,9 @@ BEACON/
 ├── README.md
 ├── .gitignore
 └── LICENSE
+```
 
-🚀 Setup Instructions
+## Setup Instructions
 Prerequisites
 
 Chrome Dev or Canary (required for Prompt API)

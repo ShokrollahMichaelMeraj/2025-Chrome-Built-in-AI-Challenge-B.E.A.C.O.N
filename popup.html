@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>B.E.A.C.O.N.</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>🔦 B.E.A.C.O.N.</h1>
-      <p class="tagline">Your guide through the web</p>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>B.E.A.C.O.N.</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>🔦 B.E.A.C.O.N.</h1>
+                <p class="tagline">Your guide through the web</p>
+            </header>
 
-    <div id="status-message" class="status"></div>
+            <div id="status-message" class="status"></div>
 
-    <main>
-      <div class="input-section">
-        <label for="task-input">What would you like help with?</label>
-        <textarea 
-          id="task-input" 
-          placeholder="Example: How do I send an email?"
-          rows="3"
-        ></textarea>
-        
-        <div class="button-group">
-          <button id="submit-btn" class="primary-btn">
-            Get Help
-          </button>
-          <button id="voice-btn" class="secondary-btn" title="Click to speak">
-            🎤 Speak
-          </button>
+            <main>
+                <div class="input-section">
+                    <label for="task-input">What would you like help with?</label>
+                    <textarea 
+                        id="task-input" 
+                        placeholder="Example: How do I send an email?"
+                        rows="3"
+                    ></textarea>
+                
+                    <div class="button-group">
+                        <button id="submit-btn" class="primary-btn">
+                        Get Help
+                        </button>
+                        <button id="voice-btn" class="secondary-btn" title="Click to speak">
+                        🎤 Speak
+                        </button>
+                    </div>
+                </div>
+
+                <div id="response-section" class="response-section" style="display: none;">
+                    <h3>Guidance:</h3>
+                    <div id="ai-response" class="response-text"></div>
+                    <button id="clear-btn" class="clear-btn">Start Over</button>
+                </div>
+            </main>
+
+            <footer>
+                <small>Powered by Chrome's built-in AI</small>
+            </footer>
         </div>
-      </div>
 
-      <div id="response-section" class="response-section" style="display: none;">
-        <h3>Guidance:</h3>
-        <div id="ai-response" class="response-text"></div>
-        <button id="clear-btn" class="clear-btn">Start Over</button>
-      </div>
-    </main>
-
-    <footer>
-      <small>Powered by Chrome's built-in AI</small>
-    </footer>
-  </div>
-
-  <script src="popup.js"></script>
-</body>
+        <script src="popup.js"></script>
+    </body>
 </html>
